@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    metabaseIntegration (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jwt (2.1.0)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  jwt
+  metabaseIntegration!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.16.2
