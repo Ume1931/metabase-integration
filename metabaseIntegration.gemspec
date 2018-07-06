@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "metabaseIntegration"
   spec.version       = MetabaseIntegration::VERSION
   spec.authors       = ["M.Umair"]
-  spec.email         = ["ume1931@gmail.com"]
+  spec.email         = ["syedanoor512@gmail.com"]
 
   spec.summary       = %q{Metabase.}
   spec.description   = %q{Metabase.}
