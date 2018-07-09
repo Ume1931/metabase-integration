@@ -24,7 +24,7 @@ module MetabaseIntegration
 
   def self.jwt_endode_metabase(dashboard_id)
     secret_keys =  Rails.application.secrets
-    parameters = permitted_params.empty? ? {} : permitted_params
-    return JWT.encode payload(dashboard_id,parameters), secret_keys.metabase_secret_key
+    # parameters = permitted_params.empty? ? {} : permitted_params
+    return JWT.encode payload(dashboard_id,{}), secret_keys.metabase_secret_key
   end
 end
