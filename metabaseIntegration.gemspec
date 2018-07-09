@@ -6,7 +6,7 @@ require "metabaseIntegration/version"
 Gem::Specification.new do |spec|
   spec.name          = "metabaseIntegration"
   spec.version       = MetabaseIntegration::VERSION
-  spec.authors       = ["M.Umair"]
+  spec.authors       = ["Noorulain"]
   spec.email         = ["syedanoor512@gmail.com"]
 
   spec.summary       = %q{Metabase.}
