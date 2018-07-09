@@ -5,7 +5,7 @@ module MetabaseIntegration
   def self.payload(dashboard_id,parameters)
     {
         :resource => {:dashboard => dashboard_id},
-        # :params => params
+        :params => params
     }
   end
 
